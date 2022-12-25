@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>YUURI UMINO Portfolio Website</title>
+<!-- google fonts読み込み -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&family=Zen+Maru+Gothic:wght@400;500&display=swap" rel="stylesheet">
+<!-- リセットcssの読み込み -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+<!-- 自分のcssの読み込み -->
+<link rel="stylesheet" href="./text.css">
+<!-- swiperの読み込み -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!-- jqueryの読み込み -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!-- 自分のjsの読み込み -->
+<script src="./script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_inner">
+            <h1 class="sitetitle">
+                <a href="#">
+                    YUURI UMINO<br>
+                    Portfolio Website
+                </a>
+            </h1>
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_list_item">
+                        <a href="./about/index.html">ABOUT</a>
+                        <p>- 私について -</p>
+                    </li>
+                    <li class="nav_list_item">
+                        <a href="./works/index.html">WORKS</a>
+                        <p>- 制作物 -</p>
+                    </li>
+                </ul>
+            </nav>
+                
+            <div class="overlay"></div>
+            <div class="nav_btn">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="main">
+        <div class="scrolldown"><span>Scroll</span></div>
+    </main>
+    
+    <section class="about">
+        <h2 class="title">
+            <img src="./images/title_aboutme.png" alt="about me">
+        </h2>
+
+        <div class="about_container">
+            <div class="about_container_text">
+                <h3>- 私について -</h3>
+                <p>
+                    独学での勉強から、宮崎キャリアデザインスクールに入校し、<br class="sp_none">
+                    フロントエンドエンジニアを目指す<br>
+                    コーディングを勉強中の元馬乗りです。<br class="sp_none">
+                    ユーザー目線に立ち、分かりやすく、使いやすく、<br class="sp_none">
+                    育てやすいコーディングを心掛けています。<br class="sp_none">
+                    前職で身につけたコミュニケーション力を活かし、<br class="sp_none">
+                    クライアント様第一のエンジニアになることを目指します。
+                </p>
+            </div>
+            <div class="about_container_image">
+                <div class="top">
+                   <img class="sp_none" src="./images/about01.png" alt="">
+                   <img class="pc_none" src="./images/about01_sp.png" alt="">
+                </div>
+                <div class="bottom">
+                    <img class="sp_none" src="./images/about02.png" alt="">
+                    <img class="pc_none" src="./images/about02_sp.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="btn">
+            <a href="./about/index.html">
+                <span>read more</span>
+            </a>
+        </div>
+    </section>
+
+    <div class="background img_bg_01"></div>
+
+    <section class="works">
+        <h2 class="title">
+            <img src="./images/title_works.png" alt="works">
+        </h2>
+
+        <h3>- 制作物 -</h3>
+        <div class="works_grid">
+            <div class="works_grid_item">
+                <img src="./images/works_logo01.jpg" alt="">
+                <p class="pc_none">架空の乗馬クラブのロゴ</p>
+            </div>
+            <div class="works_grid_item">
+                <img src="./images//works_logo02.jpg" alt="">
+                <p class="pc_none">架空のハンコ屋のロゴ</p>
+            </div>
+            <div class="works_grid_item">
+                <img src="./images//works_logo03.jpg" alt="">
+                <p class="pc_none">ロゴ</p>
+            </div>
+            <div class="works_grid_item">
+                <img src="./images//works_logo04.jpg" alt="">
+                <p class="pc_none">架空のゲーム会社のロゴ</p>
+            </div>
+            <div class="works_grid_item">
+                <img src="./images/works_web01.jpg" alt="">
+                <p class="pc_none">【課題】保育園のウェブサイト</p>
+            </div>
+            <div class="works_grid_item">
+                <img src="./images/works_web03.jpg" alt="">
+                <p class="pc_none">【課題】動物園のウェブサイト</p>
+            </div>
+        </div>
+
+        <div class="btn">
+            <a href="./works/index.html">
+                <span>view more</span>
+            </a>
+        </div>
+    </section>
+
+    <div class="background img_bg_02"></div>
+
+    <footer class="footer">
+        <small class="small">©allrights reserved yuuri umino</small>
+    </footer>
+</body>
