@@ -1,8 +1,7 @@
-@charset "UTF-8";
 body {
   width: 100%;
   margin: 0 auto;
-  font-family: "游明朝", "YuMincho", sans-serif;
+  font-family: "YuMincho", "Yu Mincho", serif;
   font-weight: 400;
   font-style: normal;
   color: #171A26;
