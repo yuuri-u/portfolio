@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>YUURI UMINO Portfolio Website</title>
+<!-- google fonts読み込み -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&family=Zen+Maru+Gothic:wght@400;500&display=swap" rel="stylesheet">
+<!-- リセットcssの読み込み -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+<!-- 自分のcssの読み込み -->
+<link rel="stylesheet" href="./text.css">
+<!-- swiperの読み込み -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!-- jqueryの読み込み -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!-- 自分のjsの読み込み -->
+<script src="./script.js"></script>
+</head>
+
+<body>
+    <header class="header"><!-- ヘッダー -->
+        <div class="header_inner">
+            <h1 class="sitetitle">
+                <a href="../../index.html">
+                    YUURI UMINO<br>
+                    Portfolio Website
+                </a>
+            </h1>
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_list_item">
+                        <a href="../about/index.html">ABOUT</a>
+                        <p>- 私について -</p>
+                    </li>
+                    <li class="nav_list_item">
+                        <a href="./index.html">WORKS</a>
+                        <p>- 制作物 -</p>
+                    </li>
+
+                </ul>
+            </nav>
+            
+            <div class="overlay"></div>
+            <div class="nav_btn">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </header>
+ 
+    <main class="main"><!-- ヘッダーフッター以外全体 -->
+
+        <section class="section"><!-- メインセクション全体 -->
+            <div class="section_head"><!-- カテゴリー名 -->
+                <h3 class="title">Logo</h3>
+                <p>design</p>
+            </div>
+
+            <div class="section_text"><!-- コンテンツ説明テキスト -->
+                <p>
+                    架空のハンコ屋のロゴデザイン
+                </p>
+            </div>
+
+            <div class="section_contents"><!-- コンテンツ中身 -->
+                <div class="section_contents_topImage"><!-- メインビジュアル画像 -->
+                    <img src="./images/works_logo04.jpg" alt="">
+                </div>
+                <dl class="section_contents_summary"><!-- 概要説明 -->
+                    <dt class="summary_title">概要</dt>
+                    <dd class="summary_text">
+                        「自分」をテーマに、自分を象徴する事柄、イメージからアイデアを出しロゴを考える課題で制作。
+                    </dd>
+                    <dt class="summary_title">デザインコンセプト</dt>
+                    <dd class="summary_text">
+                        ゲームをサブテーマに据えたので、コントローラーと、RPGの勇者のような文言を足すことで、「現実世界で生きる戦う企業戦士」も同時にイメージさせる。
+                    </dd>
+                    <dt class="summary_title">工夫点</dt>
+                    <dd class="summary_text">
+                        ロゴタイプとして文字をデザインと馴染ませたかったので、フォントの選択は慎重に行った。出来るだけ目立つが、視認性・可読性の高い癖のないフォントを採用することで、いかにもな「ゲーム会社」らしさは残しつつ、ワクワク感も与えられるようにした。<br>
+                        さらに「ここで働く・生きることへの活力」のようなものを表現するため、下部に「ヒーローになれ、世界を救え」という一見クサい文言を、クサさをマイルドにするために英文で挿入した。
+                    </dd>
+                    <dt class="summary_title">担当範囲</dt>
+                    <dd class="summary_text">
+                        デザイン
+                    </dd>
+                    </dd>
+                    <dt class="summary_title">使用カラー</dt>
+                    <dd class="summary_text">
+                        C:0 M:80 Y:92 K:0
+                    </dd>
+                    <dt class="summary_title">制作期間</dt>
+                    <dd class="summary_text">
+                        1日
+                    </dd>
+                    <dt class="summary_title">使用ツール</dt>
+                    <dd class="summary_text">
+                        Illustrator
+                    </dd>
+                </dl>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer"><!-- フッター -->
+        <small class="small">©allrights reserved yuuri umino</small>
+    </footer>
+</body>

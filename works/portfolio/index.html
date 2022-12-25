@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>YUURI UMINO Portfolio Website</title>
+<!-- google fonts読み込み -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&family=Zen+Maru+Gothic:wght@400;500&display=swap" rel="stylesheet">
+<!-- リセットcssの読み込み -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+<!-- 自分のcssの読み込み -->
+<link rel="stylesheet" href="./text.css">
+<!-- swiperの読み込み -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!-- jqueryの読み込み -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!-- 自分のjsの読み込み -->
+<script src="./script.js"></script>
+</head>
+
+<body>
+    <header class="header"><!-- ヘッダー -->
+        <div class="header_inner">
+            <h1 class="sitetitle">
+                <a href="../../index.html">
+                    YUURI UMINO<br>
+                    Portfolio Website
+                </a>
+            </h1>
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_list_item">
+                        <a href="../about/index.html">ABOUT</a>
+                        <p>- 私について -</p>
+                    </li>
+                    <li class="nav_list_item">
+                        <a href="./index.html">WORKS</a>
+                        <p>- 制作物 -</p>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="overlay"></div>
+            <div class="nav_btn">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </header>
+ 
+    <main class="main"><!-- ヘッダーフッター以外全体 -->
+
+        <section class="section"><!-- メインセクション全体 -->
+            <div class="section_head"><!-- カテゴリー名 -->
+                <h3 class="title">Web</h3>
+                <p>design / cording</p>
+            </div>
+
+            <div class="section_text"><!-- コンテンツ説明テキスト -->
+                <p>
+                    ポートフォリオサイト
+                </p>
+            </div>
+
+            <div class="section_contents"><!-- コンテンツ中身 -->
+                <div class="section_contents_topImage"><!-- メインビジュアル画像 -->
+                    <img src="./images/works_web03.jpg" alt="">
+                </div>
+                <div class="section_contents_allImage"><!-- ウェブデザイン全体像画像 -->
+                    <img src="./images/works_web03_all.jpg" alt="">
+                </div>
+                <dl class="section_contents_summary"><!-- 概要説明 -->
+                    <dt class="summary_title">概要</dt>
+                    <dd class="summary_text">
+                       今後の活動で使用するポートフォリオサイト
+                    </dd>
+                    <dt class="summary_title">デザインコンセプト</dt>
+                    <dd class="summary_text">
+                        落ち着いたシックさと、すっきりと観やすいデザイン。
+                    </dd>
+                    <dt class="summary_title">工夫点</dt>
+                    <dd class="summary_text">
+                        背景画像でパララックスを用い、のっぺりとした印象にならないよう心掛けた。<br>
+                        大げさなアニメーションを使わない変わり、ボタンへのホバー時の動作など、ページ移動をする際のホバーアニメーションを使用して分かりやすくした。<br>
+
+                    </dd>
+                    <dt class="summary_title">担当範囲</dt>
+                    <dd class="summary_text">
+                        デザイン / コーディング
+                    </dd>
+                    <dt class="summary_title">レスポンシブ</dt>
+                    <dd class="summary_text">
+                        PC
+                    </dd>
+                    <dt class="summary_title">制作期間</dt>
+                    <dd class="summary_text">
+                        1週間
+                    </dd>
+                    <dt class="summary_title">使用ツール</dt>
+                    <dd class="summary_text">
+                        Photoshop / Illustrator / Xd / Vscode
+                    </dd>
+                    <dt class="summary_title">Git Hub</dt>
+                    <dd class="summary_text">
+                        https://github.com/yuuri-u/fenix_zoo.git&emsp;<a href="https://github.com/yuuri-u/fenix_zoo.git" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></a>
+                        <br>
+                        https://yuuri-u.github.io/fenix_zoo/&emsp;<a href="https://yuuri-u.github.io/fenix_zoo/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path></svg>
+                    </dd>
+                </dl>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer"><!-- フッター -->
+        <small class="small">©allrights reserved yuuri umino</small>
+    </footer>
+</body>
