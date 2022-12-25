@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>YUURI UMINO Portfolio Website</title>
+<!-- google fonts読み込み -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&family=Zen+Maru+Gothic:wght@400;500&display=swap" rel="stylesheet">
+<!-- リセットcssの読み込み -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+<!-- 自分のcssの読み込み -->
+<link rel="stylesheet" href="./text.css">
+<!-- swiperの読み込み -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!-- jqueryの読み込み -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!-- 自分のjsの読み込み -->
+<script src="./script.js"></script>
+</head>
+
+<body>
+    <header class="header"><!-- ヘッダー -->
+        <div class="header_inner">
+            <h1 class="sitetitle">
+                <a href="../index.html">
+                    YUURI UMINO<br>
+                    Portfolio Website
+                </a>
+            </h1>
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_list_item">
+                        <a href="../about/index.html">ABOUT</a>
+                        <p>- 私について -</p>
+                    </li>
+                    <li class="nav_list_item">
+                        <a href="./index.html">WORKS</a>
+                        <p>- 制作物 -</p>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="overlay"></div>
+            <div class="nav_btn">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </header>
+ 
+    <main class="main"><!-- ヘッダーフッター以外全体 -->
+        <div id="all"></div>
+        <h2 class="title"><!-- ページタイトル -->
+            <img src="./images/title_works.png" alt="works">
+            <p>- 制作物 -</p>
+        </h2> 
+        
+        <header class="menu"><!-- サイドメニュー -->
+            <div class="menu_grid">
+                <div class="menu_grid_item">
+                    <a href="#logo">
+                        <p><span class="sp_none">－ </span>Logo</p> 
+                    </a>
+                </div>
+                <div class="menu_grid_item">
+                    <a href="#web">
+                        <p><span class="sp_none">－ </span>Web</p> 
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <div id="logo"></div>
+        <section class="section">
+            <div class="section_head"><!-- セクションタイトル ロゴデザイン-->
+                <h3>Logo</h3>
+                <p>- ロゴデザイン -</p>
+            </div>
+            <div class="section_contents"><!-- セクション中身　ロゴデザイン -->
+                <div class="section_contents_hoverContainer"><!-- 画像大　コンテンツがホバーされた時の表示内容 -->
+                    <a class="item" href="./horsemate/index.html">
+                        <img src="./images/works_logo01.jpg" alt="ロゴデザイン">
+                        <div class="hoverItem sp_none">
+                            <h4 class="hoverItem_title">Logo</h4>
+                            <p class="hoverItem_subtext">design</p>
+                        </div>
+                    </a>
+                    <p class="section_contents_grid_item_memo pc_none">架空の乗馬クラブのロゴ</p>
+                </div>
+                <div class="section_contents_flex"><!-- 画像小全体 -->
+                    <div class="section_contents_flex_item"><!-- 画像小 -->
+                        <a href="./umahanko/index.html">
+                            <img src="./images/works_logo02.jpg" alt="">
+                            <div class="hoverItem sp_none"><!-- ホバーされた時の表示内容 -->
+                                <h4 class="hoverItem_title">Logo</h4>
+                            </div>
+                        </a>
+                        <p class="section_contents_grid_item_memo pc_none">架空のハンコ屋のロゴ</p>
+                    </div>
+                    <div class="section_contents_flex_item"><!-- 画像小 -->
+                        <a href="./umasanpo/index.html">
+                            <img src="./images/works_logo03.jpg" alt="">
+                            <div class="hoverItem sp_none"><!-- ホバーされた時の表示内容 -->
+                                <h4 class="hoverItem_title">Logo</h4>
+                            </div>
+                        </a>
+                        <p class="section_contents_grid_item_memo pc_none">ロゴ</p>
+                    </div>
+                    <div class="section_contents_flex_item"><!-- 画像小 -->
+                        <a href="./umigames/index.html">
+                            <img src="./images/works_logo04.jpg" alt="">
+                            <div class="hoverItem sp_none"><!-- ホバーされた時の表示内容 -->
+                                <h4 class="hoverItem_title">Logo</h4>
+                            </div>
+                        </a>
+                        <p class="section_contents_grid_item_memo pc_none">架空のゲーム会社のロゴ</p>
+                    </div>
+                    <div class="section_contents_flex_item"><!-- 画像小 -->
+                        <a href="./holdmetight/index.html">
+                            <img src="./images/works_logo05.jpg" alt="">
+                            <div class="hoverItem sp_none"><!-- ホバーされた時の表示内容 -->
+                                <h4 class="hoverItem_title">Logo</h4>
+                            </div>
+                        </a>
+                        <p class="section_contents_grid_item_memo pc_none">架空の乗馬クラブのロゴ</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="web"></div>
+        <section class="section">
+            <div class="section_head"><!-- セクションタイトル ウェブデザイン-->
+                <h3>Web</h3>
+                <p>- ウェブ -</p>
+            </div>
+            <div class="section_contents"><!-- セクション中身　ウェブデザイン -->
+                <div class="section_contents_hoverContainer">
+                    <a class="item" href="./nursery/index.html">
+                        <img src="./images/works_web01.jpg" alt="ウェブデザイン">
+                        <div class="hoverItem sp_none">
+                            <h4 class="hoverItem_title">Web</h4>
+                            <p class="hoverItem_subtext">design ｜ cording</p>
+                        </div>
+                    </a>
+                    <p class="section_contents_grid_item_memo pc_none">認定保育園ウェブサイト</p>
+                </div>
+                <div class="section_contents_flex">
+                    <div class="section_contents_flex_item">
+                        <a href="./fenix_zoo/index.html">
+                            <img src="./images/works_web02.jpg" alt="">
+                            <div class="hoverItem sp_none">
+                                <h4 class="hoverItem_title">Web</h4>
+                            </div>
+                        </a>
+                        <p class="section_contents_grid_item_memo pc_none">【課題】動物園のウェブサイト</p>
+                    </div>
+                    <div class="section_contents_flex_item">
+                        <a href="./portfolio/index.html">
+                            <img src="./images/works_web03.jpg" alt="">
+                            <div class="hoverItem sp_none">
+                                <h4 class="hoverItem_title">Web</h4>
+                            </div>
+                        </a>
+                        <p class="section_contents_grid_item_memo pc_none">ポートフォリオサイト</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <small class="small">©allrights reserved yuuri umino</small>
+    </footer>
+</body>
