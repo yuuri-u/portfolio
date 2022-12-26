@@ -382,6 +382,7 @@ section {
 
     .about {
         width: 100vw;
+        background-color: #171A26;
 
         &_container {
             display: flex;
@@ -417,6 +418,7 @@ section {
     }
 
     .works {
+        background-color: #171A26;
         .title {
             width: 200px;
         }
@@ -430,15 +432,26 @@ section {
         
     }
 
-    .bg_fixd_01 {
+    .bg_fixd_01::before {
         content:"";
-        display:block;
-        position:fixed;
-        top:0;
-        left:0;
-        min-height: 280px;
-        z-index:-1;
+        display: block;
+        position: fixed;
+        top: 100px;
+        left: 0;
+        min-height: 180px;
+        z-index: -1;
         background-image: url(./img/bg01.jpg);
+        position: fixed;
+    }
+    .bg_fixd_02::before {
+        content:"";
+        display: block;
+        position: fixed;
+        top: 100px;
+        left: 0;
+        min-height: 180px;
+        z-index: -1;
+        background-image: url(./img/bg02.jpg);
         position: fixed;
     }
 }
