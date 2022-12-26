@@ -239,19 +239,9 @@ a {
 .img_bg_01 {
   background-image: url(./images/bg01.jpg);
 }
-@media screen and (max-width: 480px) {
-  .img_bg_01 {
-    display: none;
-  }
-}
 
 .img_bg_02 {
   background-image: url(./images/bg02.jpg);
-}
-@media screen and (max-width: 480px) {
-  .img_bg_02 {
-    display: none;
-  }
 }
 
 section {
@@ -401,6 +391,7 @@ section .btn:hover:before {
     overflow-x: hidden;
   }
   .works {
+    margin: 100px auto 0;
     background-color: #171A26;
   }
   .works .title {
