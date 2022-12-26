@@ -223,6 +223,7 @@ a {
 }
 
 .background {
+  width: 100vw;
   min-height: 400px;
   background-position: center top;
   background-repeat: no-repeat;
