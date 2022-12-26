@@ -226,6 +226,7 @@ a {
 }
 .main .section_contents_hoverContainer img {
   width: 570px;
+  height: 370px;
 }
 .main .section_contents_hoverContainer .hoverItem {
   opacity: 0;
@@ -257,6 +258,7 @@ a {
 }
 .main .section_contents_flex img {
   width: 182px;
+  height: 130px;
 }
 .main .section_contents_flex_item {
   position: relative;
@@ -344,6 +346,7 @@ a {
   }
   .main .section_contents img {
     width: 370px;
+    height: 250px;
   }
   .main .section_contents p {
     margin-top: 4px;
