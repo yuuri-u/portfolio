@@ -239,9 +239,15 @@ a {
 
 .img_bg_01 {
     background-image: url(./images/bg01.jpg);
+    @media screen and (max-width: 480px){
+        display: none;
+    }
 }
 .img_bg_02 {
     background-image: url(./images/bg02.jpg);
+    @media screen and (max-width: 480px){
+        display: none;
+    }
 }
 
 section {
