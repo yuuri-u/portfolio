@@ -393,16 +393,14 @@ section {
         &_container {
             display: flex;
             flex-direction: column-reverse;
-            gap: 20px;
 
             &_image {
                 img {                    
-                    width: 230px;
+                    width: 200px;
                 }
 
                 .pc_none {
                     display: block;
-                    width: 206px;
                 }
 
                 .top {
@@ -410,7 +408,9 @@ section {
                 }
 
                 .bottom {
-                    margin: -180px 0 0 164px;
+                    img{
+                        margin: -130px 0 0 75px;
+                    }
                 }
             }
         }
