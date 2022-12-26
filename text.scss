@@ -380,26 +380,36 @@ section {
     }
 
     .about {
+        width: 100vw;
+
         &_container {
             display: flex;
             flex-direction: column-reverse;
+
+            &_text {
+                width: calc(100% - 40px);
+                margin: 0 auto;
+            }
 
             &_image {
                 display: flex;
                 justify-content: space-between;
                 flex-direction: row;
-                margin-top: 50px;
+                margin: 0 auto;
+                padding-top: 50px;
+                width: 100vw;
 
                 img {
-                    width: 190px;
+                    width: 195px;
                 }
 
                 .top {
-                    margin-left: -20px;
+                    margin-left: -5px;
                 }
 
                 .bottom {
-                    margin: 40px 0 0 -5px;
+                    margin: 40px 0 0 0;
+                    overflow-x: hidden;
                 }
             }
         }

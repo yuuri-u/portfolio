@@ -354,24 +354,34 @@ section .btn:hover:before {
     width: calc(100% - 40px);
     margin: 30px auto 40px;
   }
+  .about {
+    width: 100vw;
+  }
   .about_container {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .about_container_text {
+    width: calc(100% - 40px);
+    margin: 0 auto;
   }
   .about_container_image {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin-top: 50px;
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 100vw;
   }
   .about_container_image img {
-    width: 190px;
+    width: 195px;
   }
   .about_container_image .top {
-    margin-left: -20px;
+    margin-left: -5px;
   }
   .about_container_image .bottom {
-    margin: 40px 0 0 -5px;
+    margin: 40px 0 0 0;
+    overflow-x: hidden;
   }
   .works .title {
     width: 200px;
